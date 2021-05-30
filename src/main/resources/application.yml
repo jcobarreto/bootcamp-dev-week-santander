@@ -12,6 +12,9 @@ spring:
     username: mprckkvbhhyuam
     #password: 123456
     password: d5a1a20fb004afe1d72936d4d7c7db460f54bad63657b278febefd764605735f
+    url: jdbc:postgresql://localhost:5432/postgres    
+    username: postgres    
+    password: 123456
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
@@ -20,4 +23,4 @@ spring:
       ddl-auto: none
 
 application:
-  description: Projeto criado para o bootcamp DIO - Santander
+  description: Projeto criado para o bootcamp DIO - Santander / Backend
